@@ -19,13 +19,13 @@
                         {{ __('Residents') }}
                     </x-nav-link>
                      <x-nav-link class="text-white" :href="route('officials')" :active="request()->routeIs('officials')">
-                        {{ __('Brgy Officials') }}
+                        {{ __('Officials') }}
                     </x-nav-link>
                      <x-nav-link class="text-white" :href="route('documents')" :active="request()->routeIs('documents')">
                         {{ __('Certificates/Documents') }}
                     </x-nav-link>
                      <x-nav-link class="text-white" :href="route('incident')" :active="request()->routeIs('incident')">
-                        {{ __('Incidents Reports') }}
+                        {{ __('Incidents') }}
                     </x-nav-link>
                      <x-nav-link class="text-white" :href="route('announcements')" :active="request()->routeIs('announcements')">
                         {{ __('Announcements') }}
